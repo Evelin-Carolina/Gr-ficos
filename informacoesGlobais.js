@@ -19,6 +19,3 @@ async function vizualizarInformacoesGlobais() {
 
 vizualizarInformacoesGlobais()
 
-bilhões</span> estão conectadas em alguma rede social e passam em média <span>${horas} horas </span> e <span>${minutos} minutos</span> conectadas.
-.<br>Isso significa que aproximadamente <span>${porcentagemConectada}%</span> de pessoas estão conectadas em alguma rede social.
-

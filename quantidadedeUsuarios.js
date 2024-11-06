@@ -11,7 +11,7 @@ async function quantidadeUsuarios() {
     {
       x: nomeDasRedes,
       y: quantidadeUsuarios,
-      type: 'bar'
+      type: 'bar',
       marker: {
         color: getCSS('--primary-color')
       }
@@ -26,7 +26,7 @@ const layout = {
        x: 0,
        font: {
            color: getCSS('--primary-color'),
-           size: 30
+           size: 30,
            font: getCSS('--font')
        }
     },

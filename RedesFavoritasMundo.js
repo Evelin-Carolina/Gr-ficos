@@ -2,10 +2,10 @@ import { getCSS, criarGrafico, incluirTexto } from "./common.js"
 
 async function redesFavoritasMundo() {
     const url = "https://raw.githubusercontent.com/guilhermeonrails/api/main/redes-favoritas.json";
-    const res = await fetch(url);
-    const dados = await res.json();
-    const redes = Object.keys(dados);
-    const valores = Object.values(dados);
+    const res = await fetch(url)
+    const dados = await res.json()
+    const redes = Object.keys(dados)
+    const valores = Object.values(dados)
   
     const data = [
         {
@@ -40,4 +40,6 @@ const layout = {
     criarGrafico(data, layout)
 
     incluirTexto('Embora o <span>Instagram</span> ocupe a quarta posição em termos de número total de usúarios entre as redes sociais, destaca-se como a <span>preferida pelos usúarios</span>. Supera até mesmo o <span>Facebook</>, a plataforma com mais usúarios, sendo a terceira opção mais apreciada pelos usuários. <br>Essa preferência evidencia a forte conexão e apreço que as pessoas têm pelo instagram em comparação com outras redes sociais')
-    
+}
+
+redesFavoritasMundo()
